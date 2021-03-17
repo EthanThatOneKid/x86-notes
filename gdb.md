@@ -2,9 +2,11 @@
 
 > [GDB, the GNU Project debugger](https://www.gnu.org/software/gdb/), allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed.
 
-Convention: Use a different bash (`.sh`) file for the debugger.
-
 Usage: `gdb program-name.out`
+
+> Convention: Use a different bash (`.sh`) file for the debugger.
+
+## Commands
 
 | Command                                     | Behavior                      |
 | ------------------------------------------- | ----------------------------- |
@@ -23,6 +25,8 @@ Usage: `gdb program-name.out`
 | `p/<ptype> <variable_name>`                 | Print the value of a variable |
 
 > Note: `<variable_name>`s can also be the names of x86 Assembly registers if prefixed with `$`. Example: `p/f $xmm0`.
+
+Here is a list of some common `ptype`s to specify datatypes in GDB:
 
 | `ptype` | Definition       |
 | ------- | ---------------- |
