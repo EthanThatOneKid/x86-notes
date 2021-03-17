@@ -8,6 +8,7 @@
 - [Decimal → IEEE754][decimal_to_ieee754]
 - [Binary → IEEE754][binary_to_ieee754]
 - [IEEE754 → Decimal][ieee754_to_decimal]
+- [+∞ in Decimal][positive_infinity_in_decimal]
 
 What is the point of IEEE?
 This is how computers deal with negative numbers!
@@ -235,3 +236,25 @@ answer = -1^(E) x (1 + M) x 2^(E)
 ```
 
 The answer is `58.5`!
+
+## +∞ in Decimal
+
+[positive_infinity_in_decimal]: #---in-decimal
+
+The largest value possible in a quadword register is `0x7FF0 0000 0000 0000` in hexadecimal.
+So, `+∞ = 0x7FF0 0000 0000 0000`.
+
+```
+  0x7FF
+- 0x3FF
+---------
+  0x400
+
+0x400 → 0100 0000 0000
+0100 0000 0000 → 1024
+1024 = true exponent
+
+ans = 1.0000.. * 2^1024
+      ^ hidden bit
+    = 2^1024      
+```
