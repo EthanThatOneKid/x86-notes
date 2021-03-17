@@ -239,7 +239,7 @@ The answer is `58.5`!
 
 ## +∞ in Decimal
 
-[positive_infinity_in_decimal]: #---in-decimal
+[positive_infinity_in_decimal]: #-in-decimal
 
 The largest value possible in a quadword register is `0x7FF0 0000 0000 0000` in hexadecimal.
 So, `+∞ = 0x7FF0 0000 0000 0000`.
