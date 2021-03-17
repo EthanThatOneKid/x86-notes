@@ -129,9 +129,11 @@ Sum up the _decimal value_ column to get the decimal representation, `112`.
 Convert `45.45` to IEEE754 (32-bit).
 
 First convert 45 [to binary][decimal_to_binary].
+
 `45 = 101101`
 
 Now convert 0.45 to [to binary][decimal_to_binary_fractional].
+
 `0.45 = 0.011100(1100 repeating)`
 
 Finally, convert the binary value, `101101.011100(1100 repeating)`, [to IEEE754][binary_to_ieee754].
@@ -198,7 +200,7 @@ Determine the sign, S.
 The sign is positive because the first bit is zero.
 If the sign were negative, the value would be `-1` instead of `1`.
 
-`S = 1`
+`S = 0`
 
 Determine the exponent, E.
 The next 8 bits, `10000100`, represent the exponent.
