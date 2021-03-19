@@ -8,8 +8,9 @@
 - [Decimal → IEEE754][decimal_to_ieee754]
 - [Binary → IEEE754][binary_to_ieee754]
 - [IEEE754 → Decimal][ieee754_to_decimal]
-- [Big Endian → Little Endian][big_endian_to_little_endian] (_todo_)
-- [Little Endian → Big Endian][little_endian_to_big_endian] (_todo_)
+- [Binary IEEE754 → Hexadecimal IEEE754][binary_ieee_to_hexadecimal_ieee]
+- [Big Endian → Little Endian][big_endian_to_little_endian]
+- [Little Endian → Big Endian][little_endian_to_big_endian]
 - [+∞ in Decimal][positive_infinity_in_decimal]
 
 What is the point of IEEE?
@@ -240,6 +241,24 @@ answer = -1^(E) × (1 + M) × 2^(E)
 ```
 
 The answer is `58.5`!
+
+## Binary IEEE754 → Hexadecimal IEEE754
+
+[binary_ieee_to_hexadecimal_ieee]: #binary-ieee754--hexadecimal-ieee754
+
+_todo_
+
+## Big Endian → Little Endian
+
+[big_endian_to_little_endian]: #big-endian--little-endian
+
+_todo_
+
+## Little Endian → Big Endian
+
+[little_endian_to_big_endian]: #little-endian--big-endian
+
+_todo_
 
 ## +∞ in Decimal
 
