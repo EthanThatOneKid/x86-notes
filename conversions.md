@@ -8,6 +8,8 @@
 - [Decimal → IEEE754][decimal_to_ieee754]
 - [Binary → IEEE754][binary_to_ieee754]
 - [IEEE754 → Decimal][ieee754_to_decimal]
+- [Big Endian → Little Endian][big_endian_to_little_endian] (_todo_)
+- [Little Endian → Big Endian][little_endian_to_big_endian] (_todo_)
 - [+∞ in Decimal][positive_infinity_in_decimal]
 
 What is the point of IEEE?
