@@ -20,8 +20,8 @@ This is how computers deal with negative numbers!
 
 | Version | Exponent | Bias Number | Mantissa |
 | ------- | -------- | ----------- | -------- |
-| 32-bit  | 6 bits   | 127         | 23 bits  |
-| 64-bit  | 11 bits  | 1023        | 53 bits  |
+| 32-bit  | 8 bits   | 127         | 23 bits  |
+| 64-bit  | 11 bits  | 1023        | 52 bits  |
 
 ## Decimal → Binary
 
